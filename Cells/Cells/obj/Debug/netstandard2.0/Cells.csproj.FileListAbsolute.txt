@@ -1,0 +1,15 @@
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\Cells.csprojAssemblyReference.cache
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\AlbumsDetails.xaml.g.cs
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\View\AlbumView.xaml.g.cs
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\Cells.AssemblyInfoInputs.cache
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\Cells.AssemblyInfo.cs
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\bin\Debug\netstandard2.0\Cells.deps.json
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\bin\Debug\netstandard2.0\Cells.dll
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\bin\Debug\netstandard2.0\ref\Cells.dll
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\bin\Debug\netstandard2.0\Cells.pdb
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\Cells.dll
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\ref\Cells.dll
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells\obj\Debug\netstandard2.0\Cells.pdb
