@@ -11,7 +11,7 @@ namespace Cells.Model
         public string Artist { get; set; }
         public string ShortDescription { get; set; }
         public string ImageURL { get; set; }
-        //public string ImageURL2 { get; set; }
+       public string ImageURL2 { get; set; }
         
 
         public List<Album> GetAlbums()

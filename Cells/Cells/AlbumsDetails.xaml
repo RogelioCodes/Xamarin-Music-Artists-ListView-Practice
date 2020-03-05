@@ -7,11 +7,40 @@
              x:Class="Cells.AlbumsDetails"
              Title="Details Page">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <ScrollView>
+            <StackLayout Spacing="10" Padding="10" >
+                
+                <StackLayout Spacing="5">
 
-            <Image x:Name="MyImageCall" HeightRequest="400" WidthRequest="400"></Image>
-            <Label x:Name="MyItemNameShow" HorizontalTextAlignment="Center" FontSize="18" />
-            <Label x:Name="MyDetailItemShow" Margin="20, 20" FontSize="18"/>
-        </StackLayout>
+                <StackLayout   VerticalOptions="Center" HorizontalOptions="Center">
+
+                    <Image x:Name="MyImageCall"></Image>
+                    <Image x:Name="MyImageCall2" ></Image>
+                    
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"  VerticalOptions="Center" HorizontalOptions="Center">
+                    <Label  x:Name= "MyItemNameShow2" FontSize="20" TextColor="Purple" />
+                    <Label Text="-" FontSize="20" TextColor="Purple"  />
+                    <Label x:Name= "MyItemNameShow" FontSize="20" TextColor="Purple" />
+
+
+
+
+
+                </StackLayout>
+                
+
+                  
+                    <Label x:Name="MyDetailItemShow"  FontSize="18" />
+
+
+
+               
+
+               
+            </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

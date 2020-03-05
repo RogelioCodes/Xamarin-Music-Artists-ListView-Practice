@@ -472,3 +472,9 @@ C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\
 C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\gecs.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\fka2.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\atrocity2.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\gecs2.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\kkb.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\kkb2.jpg
