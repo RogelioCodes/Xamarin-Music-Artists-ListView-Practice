@@ -43,7 +43,7 @@ namespace Cells.View
 
         }
        
-        public void On_More(object sender, System.EventArgs e)
+        public void On_More(object sender, System.EventArgs e) //takes you details page
         {
             var mi = ((MenuItem)sender);
             DisplayAlert("More Context Action", mi.CommandParameter + " more context action", "OK");
@@ -72,7 +72,7 @@ namespace Cells.View
             await Navigation.PushAsync(new AlbumsDetails(mydetails.AlbumName, mydetails.Artist, mydetails.ShortDescription, mydetails.ImageURL, mydetails.ImageURL2));
         }
 
-        public async void MenuItem_Clicked(object sender, EventArgs e)
+        public async void MenuItem_Clicked(object sender, EventArgs e) //used to take to more details via context menu(not just tapping)
         {
             var mi = sender as MenuItem;
             var mydetails = mi.BindingContext as Album;
