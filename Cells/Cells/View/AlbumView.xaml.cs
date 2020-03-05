@@ -39,7 +39,13 @@ namespace Cells.View
 
 
         }
-
+        public void Remove_Clicked(object sender, EventArgs e)
+        {
+            var button = sender as Button;
+            var album = button.BindingContext as Album;
+            var vm = BindingContext as AlbumViewModel;
+            vm.RemoveCommand.Execute(album);
+        }
         public async void ItemTapped(object sender, ItemTappedEventArgs e) //New page is opened, info about fruit is passed to page
         {
             var mydetails = e.Item as Album;

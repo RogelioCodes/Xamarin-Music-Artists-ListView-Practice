@@ -4,12 +4,21 @@ using System.Collections.ObjectModel;
 using System.Text;
 using Cells.Model;
 using Cells.View;
+using Xamarin.Forms;
 namespace Cells.ViewModel
 {
     public class AlbumViewModel
     {
         public ObservableCollection<Album> Albums { get; set; }
-        
+        public Command<Album> RemoveCommand
+        {
+            get
+            {
+                return new Command<Album>((Album) => {
+                    Albums.Remove(Album);
+                });
+            }
+        }
         public AlbumViewModel()//constructor
         {
             

@@ -4,7 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Cells.View.AlbumView"
+             x:Class="Cells.View.AlbumView"        
+             xmlns:local="clr-namespace:Cells.Model"
+             xmlns:AlbumViewModel="clr-namespace:Cells.ViewModel ;assembly=Cells"
              Title="Albums">
     <ContentPage.Content>
         <StackLayout Spacing="10" Padding="10" >
@@ -16,10 +18,11 @@
                                 <StackLayout Spacing="5">
                                     
 
-                                    <StackLayout Orientation="Horizontal">
-                                            <Label Text="{Binding Artist}" FontSize="20" TextColor="Purple" />
-                                            <Label Text="-" FontSize="20" TextColor="Purple" />
-                                            <Label Text="{Binding AlbumName}" FontSize="20" TextColor="Purple" />
+                                    <StackLayout Orientation="Horizontal"  VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Label Text="{Binding Artist}" FontSize="20" TextColor="Purple" Margin="10" />
+                                            <Label Text="-" FontSize="20" TextColor="Purple" Margin="10" />
+                                            <Label Text="{Binding AlbumName}" FontSize="20" TextColor="Purple" Margin="10" />
+                                            <Button Text="Remove" Clicked="Remove_Clicked" />
                                     </StackLayout>
                                     <Image  Source="{Binding ImageURL}"  />
                                             <Image Source="{Binding ImageURL2}" />
