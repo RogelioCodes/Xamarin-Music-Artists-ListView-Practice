@@ -17,7 +17,7 @@ namespace Cells.View
     {
         
         int counter = -1; //used for onAppearing
-
+        public ObservableCollection<Album> Albums { get; set; }
         public AlbumView()
         {
 
@@ -43,6 +43,8 @@ namespace Cells.View
 
         }
        
+        
+        
         public void On_More(object sender, System.EventArgs e) //takes you details page
         {
             var mi = ((MenuItem)sender);
@@ -59,10 +61,10 @@ namespace Cells.View
             vm.RemoveCommand.Execute(album);
           
         }
-        public void Add_Clicked(object sender, EventArgs e)
+        public void Add_Clicked(object sender, EventArgs e) //This duplicates an item
         {
-            var button = sender as Button;
-            var album = button.BindingContext as Album;
+            var mi = sender as MenuItem;
+            var album = mi.BindingContext as Album;
             var vm = BindingContext as AlbumViewModel;
             vm.AddCommand.Execute(album);
         }

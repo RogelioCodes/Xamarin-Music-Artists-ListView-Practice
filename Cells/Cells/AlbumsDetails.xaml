@@ -20,19 +20,19 @@
 
                 </StackLayout>
                 <StackLayout Orientation="Horizontal"  VerticalOptions="Center" HorizontalOptions="Center">
-                    <Label  x:Name= "MyItemNameShow2" FontSize="20" TextColor="Purple" />
-                    <Label Text="-" FontSize="20" TextColor="Purple"  />
-                    <Label x:Name= "MyItemNameShow" FontSize="20" TextColor="Purple" />
+                    <Label  x:Name= "MyItemNameShow2" FontSize="24" TextColor="Purple" />
+                    <Label Text="-" FontSize="24" TextColor="Purple"  />
+                    <Label x:Name= "MyItemNameShow" FontSize="24" TextColor="Purple" />
 
 
 
 
 
                 </StackLayout>
-                
 
-                  
-                    <Label x:Name="MyDetailItemShow"  FontSize="18" />
+
+
+                    <Label x:Name="MyDetailItemShow"  FontSize="24" TextColor="Black" />
 
 
 

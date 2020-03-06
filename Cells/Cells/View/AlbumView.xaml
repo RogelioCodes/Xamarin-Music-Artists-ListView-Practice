@@ -10,7 +10,7 @@
              Title="Albums">
     <ContentPage.Content>
         <StackLayout Spacing="10" Padding="10" >
-            <ListView x:Name="listAlbums" ItemsSource="{Binding Albums}" HasUnevenRows="True" SelectionMode="Single" ItemTapped="ItemTapped" IsPullToRefreshEnabled="True" >
+            <ListView x:Name="listAlbums" ItemsSource="{Binding Albums}" HasUnevenRows="True" SelectionMode="Single" ItemTapped="ItemTapped" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -19,25 +19,24 @@
                                             CommandParameter="{Binding .}"
                                             Text="More" />
                                 <MenuItem Clicked="Remove_Clicked"
-                      CommandParameter="{Binding .}"
-                      Text="Delete" IsDestructive="True" />
+                                        CommandParameter="{Binding .}"
+                                        Text="Delete" IsDestructive="True" />
+                                <MenuItem Clicked="Add_Clicked"
+                                        CommandParameter="{Binding .}"
+                                Text="DUPLICATE" IsDestructive="False" />
                             </ViewCell.ContextActions>
                             <ViewCell.View>
                                 <StackLayout Spacing="5">
                                     
 
                                     <StackLayout Orientation="Horizontal"  VerticalOptions="Center" HorizontalOptions="Center">
-                                            <Label Text="{Binding Artist}" FontSize="20" TextColor="Purple"  />
-                                            <Label Text="-" FontSize="20" TextColor="Purple"  />
-                                            <Label Text="{Binding AlbumName}" FontSize="20" TextColor="Purple"  />
+                                            <Label Text="{Binding Artist}" FontSize="24" TextColor="Purple"  />
+                                            <Label Text="-" FontSize="24" TextColor="Purple"  />
+                                            <Label Text="{Binding AlbumName}" FontSize="24" TextColor="Purple"  />
                                
                                     </StackLayout>
                                     <Image  Source="{Binding ImageURL}"  />
-                                           
-
-                                       
-                                    
-                                    <Label Text="{Binding ShortDescription}" FontSize="18" />
+                                    <Label Text="{Binding ShortDescription}" FontSize="24" TextColor="Black" />
     
                                 </StackLayout>
                             </ViewCell.View>

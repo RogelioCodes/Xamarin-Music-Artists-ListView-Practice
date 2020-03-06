@@ -478,3 +478,10 @@ C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\
 C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\gecs2.jpg
 C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\kkb.jpg
 C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\kkb2.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\wu2.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\st.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\st2.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\jn.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\jn2.jpg
+C:\Users\Rogelio\source\repos\CS481_HW4_Rogelio_Cordova\Cells\Cells.Android\obj\Debug\90\res\drawable\wu.png
